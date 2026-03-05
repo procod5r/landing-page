@@ -9,7 +9,6 @@ body{
 /* HERO SECTION */
 .hero {
     background-color: #1F2937;
-    /* gap: 16px; */
 }
 
 header {
@@ -73,6 +72,7 @@ img {
 .section {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .hero img {
@@ -81,7 +81,7 @@ img {
     height: 200px;
 }
 
-body div.section {
+div.section {
     padding: 20px;
     padding-top: 0;
     flex: 1 1 0;
@@ -97,7 +97,19 @@ button {
     font-size: 18px;
 }
 
+/* CTA SECTION */
+.cta-container {
+    background-color: #3882F6;
+}
 
+.cta-btn {
+    border: 2px solid white;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    background-color: #E5E7EB;
+}
 
 
 
@@ -107,7 +119,8 @@ button {
 
 /* FOOTER */
 
-footer{
+footer.section{
     background-color: #1F2937;
+    color: white;
 }
 
