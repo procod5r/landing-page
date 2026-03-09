@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    font-family: Roboto, Verdana, sans-serif; /* add roboto google font*/
 }
 
 body{
@@ -120,10 +119,29 @@ button {
     font-weight: 900;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card {
+    text-align: center;
+    flex: 1;
+}
 
 /* TESTIMONIAL */
 .testimonial {
     background-color: #E5E7EB;
+}
+
+.testimonial .wrapper {
+    padding-top: 50px;
 }
 
 .testimonial blockquote {
@@ -141,6 +159,16 @@ button {
 .cta-btn {
     border: 2px solid white;
     flex-grow: 0;
+    transition: all 0.3s;
+}
+
+.cta-btn:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
+.cta-btn:active {
+    opacity: 70%;
 }
 
 .cta-container .blue-div {
